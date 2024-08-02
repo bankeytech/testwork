@@ -8,6 +8,9 @@
   font-variation-settings:
     "slnt" 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* navigation */
 #nav-bar{
   position: sticky;
