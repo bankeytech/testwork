@@ -139,7 +139,7 @@
 }
 
 
-         /* MEDIA PAGE */
+        /* MEDIA PAGE */
 
 .img-col {
   transition: transform 0.3s ease-in-out; /* add transition effect */
@@ -149,16 +149,15 @@
 
 .img-col:hover {
   transform: scale(0.9); /* enlarge on hover */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add box shadow on hover */
   overflow: hidden;
 }
 
 .img-col:not(:hover) {
   transform: scale(0.8); /* reduce size when not hovered */
- 
 }
 .img-hover{
   border-radius: 10px;
+  margin-bottom: 25px;
 }
 
 
@@ -167,6 +166,208 @@
   opacity: 1;
   border-top: 2px solid #FFA500;
 }
+
+
+
+
+/* DONATION PAGES */
+.og1 img{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+
+}
+
+.MG img{
+  background-position: center;
+  background-size: cover;
+}
+
+.text-on-image {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  transform: translate(-35%, -62%);
+  color: white;
+  margin-top:35px;
+}
+
+.rox{
+  background-color: #FFA500;
+  padding: 5px;
+  width: 75px !important;
+  color: #ffff;
+  font-weight: 500;
+  
+}
+
+               /* RESOUCES */
+
+.nad a:hover{
+  color: #FFA500 !important;
+  transition: 0.3s ease color;
+}
+
+
+
+.srch{
+  width: 300px;
+  height: 52px;
+  background: transparent;
+  border: 1px solid #FFA500;
+  color: white;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  margin-top: 13px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.btf{
+  width: 60px;
+  height: 52px;
+  background: #FFA500;
+  border: 2px solid #FFA500;
+  margin-top: 13px;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.tyr{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  border-bottom-right-radius:75px !important ;
+  padding: 0px !important;
+  width: 325px !important;
+}
+
+
+                     /* TEAM MEMBER */
+#Team-member{
+  background-color: #F5F5DC;
+  height: 1050px;
+
+ }
+.run{
+  background: url(./asset/image/Group\ 15127.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px !important;
+}
+
+.word h3{
+    font-family: "Passions Conflict", cursive;
+    font-size: 64px !important;
+}
+
+
+.card{
+  border-top-right-radius: 24px !important;
+}
+.card-body{
+  background: url(./asset/image/Rectangle\ 10217.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 10px !important;
+}
+ 
+.card-body p{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+ 
+
+
+             /* GET INVOLVED */
+
+.f-row{
+  background: url(./asset/image/Frame\ 1000001437.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px !important;
+
+}
+
+.form input, .form textarea{ 
+  padding: 15px !important;
+  background: transparent;
+  width: 100%;
+  border: 1px solid #ffff;
+  font-size: small;
+  color: white;
+  outline: none;
+ 
+}
+
+.form input::placeholder{
+  color: white ;
+}
+
+.btn-n{
+  background-color: white;
+  color: #2F4F4F;
+  padding: 13px !important;
+  font-size: small;
+  font-weight: 500;
+  border: 1px solid #ffff;
+  border-radius: 15px;
+  width: 25%;
+}
+
+.btn-n:hover{
+  background-color: transparent;
+  border: 1px solid #2F4F4F;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+  
+            /* CONTACT US */
+ .d-img{
+  padding-right: 50%;
+ }           
+.d-img img{
+  width: 55px;
+}
+
+.eff2{
+  background: #2F4F4F;
+}
+
+.eff2 h5{
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.eff2 p{
+ font-size: 13px;
+}
+
+              /* FOOTER */
+.eff3{
+  background: #2F4F4F;
+  padding: 20px 165px;
+}
+
+.eff3 p{
+  margin: 0px;
+  font-size: 13px;
+ }
+ 
 
 
 
